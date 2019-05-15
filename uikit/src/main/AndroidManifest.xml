@@ -1,2 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.hzy.uikit"/>
+          package="com.hzy.uikit">
+    <application>
+        <activity android:name=".ui.P2pSessionActivity"/>
+    </application>
+</manifest>

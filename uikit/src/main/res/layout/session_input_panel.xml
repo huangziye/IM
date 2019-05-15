@@ -31,6 +31,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
                     android:background="@color/white"
                     android:gravity="center">
 
@@ -42,6 +44,7 @@
                         android:background="@null"
                         android:maxLines="4"
                         android:minHeight="30dp"
+                        android:padding="5dp"
                         android:visibility="visible"/>
 
                 <Button
@@ -76,8 +79,8 @@
             <Button
                     android:id="@+id/sendButton"
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="45dp"
-                    android:layout_height="35dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="2.5dp"
                     android:background="@drawable/shape_session_btn_send"
@@ -104,7 +107,7 @@
         </com.hzy.uikit.widget.KeyboardHeightFrameLayout>
 
         <com.hzy.uikit.widget.KeyboardHeightFrameLayout
-                android:id="@+id/extContainerContainerLayout"
+                android:id="@+id/extContainerFrameLayout"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/default_custom_keyboard_size"
                 android:background="@color/white"

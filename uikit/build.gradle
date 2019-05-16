@@ -32,7 +32,7 @@ dependencies {
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'com.lqr.emoji:library:1.0.2'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0-alpha1'
+    api 'androidx.recyclerview:recyclerview:1.0.0-alpha1'
     // 添加依赖。注意，版本号必须一致。
     // 基础功能 (必需)
     api 'com.netease.nimlib:basesdk:6.3.0'
